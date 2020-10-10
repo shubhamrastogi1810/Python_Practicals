@@ -1,0 +1,1 @@
+print("Good Bye! Cruel World")
