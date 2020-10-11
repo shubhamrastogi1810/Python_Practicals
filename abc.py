@@ -1,9 +1,6 @@
-book = open("abc.txt","r")
-n_word = 0
+# read all the file content without loop
 
-for line in book:
-	word_in =len(line.split())
-	n_word += word_in
-	
-print("No of words",n_word)
+book = open("abc.txt","r")
+line=book.read()
+print(line)
 book.close()
