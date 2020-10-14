@@ -1,6 +1,5 @@
-# read all the file content without loop
+import sys
 
-book = open("abc.txt","r")
-line=book.read()
-print(line)
-book.close()
+#a = sys.exit()
+
+print(a)
