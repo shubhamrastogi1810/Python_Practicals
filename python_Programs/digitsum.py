@@ -1,8 +1,8 @@
-#calculate the sum of the given number
+""" calculate the sum of the given number """
 num = int(input("Enter a number "))
-addi =0
+ADD =0
 while num > 0:
-	a = num % 10
-	addi+=a
-	num= num // 10
-print("your digit sum is ",addi)
+    a = num % 10
+    ADD+=a
+    num= num // 10
+print("your digit sum is ",ADD)

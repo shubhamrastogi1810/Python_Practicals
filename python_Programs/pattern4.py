@@ -1,18 +1,17 @@
-# 1 
+# 1
 # 2 1
-# 3 2 1 
+# 3 2 1
 # 4 3 2 1
 # 5 4 3 2 1
-# printing the above pattern
+"""  printing the above pattern """
 
 last = int(input("Enter the no. of rows "))
-a = 1 
-
-while a<=last:
-	b = a
-	while b>=1:
-		print(b," ",end='')
-		b-=1
-	print()
-	a+=1
-
+A = 1#out loop variable
+# B is inner loop variable
+while A<=last:
+    B = A
+    while A>=1:
+        print(B," ",end='')
+        B-=1
+    print()
+    A+=1

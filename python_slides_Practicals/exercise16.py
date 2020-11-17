@@ -1,18 +1,18 @@
+""" reading lines and printing length of the words """
 filename = input('File name? ')
 data = open(filename, 'r')
 
-n_lines = 0
-n_words = 0
-n_chars = 0
+N_LINES = 0
+N_WORDS = 0
+N_CHARS = 0
 
 for line in data:
-    n_lines += 1
+    N_LINES += 1
 
     words_in_line = len(line.split())
-    n_words += words_in_line
+    N_WORDS += words_in_line
 
-    n_chars += len(line)
+    N_CHARS += len(line)
 
 data.close()
-print(filename," lines ",n_lines," words ",n_words," chars ",n_chars)
-
+print(filename," lines ",N_LINES," words ",N_WORDS," chars ",N_CHARS)

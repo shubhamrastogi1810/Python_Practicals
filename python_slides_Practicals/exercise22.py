@@ -1,4 +1,5 @@
 # Establish a dictionary which translates 'cat', 'dog', and 'mouse' into French.
+"""basic dictionary functions like adding or making list """
 en_to_fr = { 'cat':'chat', 'dog':'chein','mouse':'souris' }
 
 # Add 'snake' to it.
@@ -14,13 +15,9 @@ print(en_to_fr.values(),"\n")
 print(en_to_fr.items(),"\n")
 
 for (english,spanish) in en_to_fr.items():
-	print(spanish,english)
-	print("\n")
+    print(spanish,english)
+    print("\n")
 
 print(list(en_to_fr.items()))
 
 print('snake' in en_to_fr)
-
-
-
-

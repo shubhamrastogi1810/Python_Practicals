@@ -1,11 +1,11 @@
-# calculate gross salary with 40% of DA and HRA is 20%
-frmt='{:16}:{:.2f}'
-sal = int(input("Enter the salary "))
-da = sal*0.4
-hra = sal*0.2
-gr_sal = sal - da - hra
+""" calculate gross salary with 40% of DA and HRA is 20% """
+FRMT='{:16}:{:.2f}'
+salary= int(input("Enter the salary "))
+da= salary*0.4
+hra = salary*0.2
+gr_sal = salary - da - hra
 print("")
-print(frmt.format("salary is ",sal))
-print(frmt.format("Daily allowance ",da))
-print(frmt.format("HRA is ",hra))
-print(frmt.format("gross salary is ",gr_sal))
+print(FRMT.format("salary is ",salary))
+print(FRMT.format("Daily allowance ",da))
+print(FRMT.format("HRA is ",hra))
+print(FRMT.format("gross salary is ",gr_sal))

@@ -1,4 +1,6 @@
+""" practicing functions of total and product """
 def total(numbers):
+    """find the total of the numbers in the list """
     total_so_far = 0
     for number in numbers:
         total_so_far += number
@@ -11,6 +13,7 @@ print(total([]))
 
 
 def product(numbers):
+    """ finding the product of numbers in the list """
     total_so_far = 1
     for number in numbers:
         total_so_far *= number
@@ -21,4 +24,3 @@ def product(numbers):
 print(product([1, 2, 3]))
 print(product([7, -4, 1, 6, 0]))
 print(product([]))
-

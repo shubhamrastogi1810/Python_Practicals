@@ -1,5 +1,6 @@
 #!/usr/bin/python3
+""" Find the square root of a number """
 import math
-frmt = '{:.2f}'
+FRMT = '{:.2f}'
 a = abs(int(input("Enter a number ")))
-print("square root is ",frmt.format(math.sqrt(a)))
+print("square root is ",FRMT.format(math.sqrt(a)))
