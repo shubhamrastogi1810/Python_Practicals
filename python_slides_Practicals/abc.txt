@@ -1,3 +1,0 @@
-This is a text file 
-reading line 2
-reading line 3 
