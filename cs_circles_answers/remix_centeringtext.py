@@ -2,8 +2,8 @@
 f = open("../input_csCircles/centertext.in","r")
 
 for i in f:
-    if i == "END":
-        continue
+    if i == "g":
+        print("hello",end='')
     else:
-        print(i)
-
+        print(i,end='')
+f.close()
