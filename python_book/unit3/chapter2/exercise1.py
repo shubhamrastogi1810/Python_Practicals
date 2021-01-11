@@ -1,7 +1,7 @@
 """ This is lab exercise of python book example 1."""
 # Write a program to ask for follwing as input
 # Enter your first name: Rahul
-# Enter your last name: Kumar
+s# Enter your last name: Kumar
 # Enter your date of birth Month? March Day? 10 Year? 1992 and display on the screen.
 from datetime import date
 FRMT = '{:20}:{}'
