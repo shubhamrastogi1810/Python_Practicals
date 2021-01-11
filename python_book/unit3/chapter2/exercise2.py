@@ -1,4 +1,4 @@
-""" This is lab exercise of python book example 2."""
+""" This program will rectify the errors, which occurs in the comment code. """
 # Consider the following function definition:
 # def intDiv(x,a):
 # """

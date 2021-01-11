@@ -1,12 +1,12 @@
-""" This is lab exercise of python book example 1."""
+""" This program will input first-name, last-name, and date-of-birth and prints them in a format."""
 # Write a program to ask for follwing as input
 # Enter your first name: Rahul
-s# Enter your last name: Kumar
+# Enter your last name: Kumar
 # Enter your date of birth Month? March Day? 10 Year? 1992 and display on the screen.
 from datetime import date
 FRMT = '{:20}:{}'
 def getdata():
-    """ This function is to get fname, lname and date of birth."""
+    """ This function is to get fname, lname and date of birth and prints them."""
     fname = input("Enter your First Name-> ")
     lname = input("Enter your Last Name-> ")
     bir_month = int(input("Birth Month in Number-> "))

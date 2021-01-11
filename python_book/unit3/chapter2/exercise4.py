@@ -1,7 +1,7 @@
-""" This is a lab exercise of python book Example 4. """
+""" This program will input a fahrenheit temperature and converts it into celsius."""
 # This example will input a fahrenheit temperature and convert it into celsius.
 def convert_temperature(temp_fahren):
-    """ This function will convert the temperature from Fahrenheit to Celsius. """
+    """ This function converts the temperature from Fahrenheit to Celsius. """
     celsius = (temp_fahren - 32)*5/9
     print(round(celsius,2))
 

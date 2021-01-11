@@ -1,4 +1,4 @@
-""" This is a lab exercise of python book example 8 """
+""" This program will input a number and computes log, sine, square, and cosine for that number."""
 import math
 FRMT = '{:15}:{:}'
 def computation(number):

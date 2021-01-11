@@ -1,4 +1,4 @@
-""" This is a lab exercise of python book example 10."""
+""" This program will display the faces appear while rolling a dice and prints'thats all' at end."""
 import random
 def roll_dice(num_rolls,sides=6):
     """ This function prints the sides on rolling, then prints 'that's all.'  """

@@ -1,4 +1,4 @@
-""" This is an example of python book of exercise Example 5. """
+""" This program will input a number and returns True if number is odd else False."""
 # This example will input a number and returns TRUE if number is odd else
 # returns False without using if.
 def finding_odd(number):

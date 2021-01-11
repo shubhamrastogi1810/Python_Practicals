@@ -1,6 +1,6 @@
-""" This is a lab exercise of python book example 7. """
-def fourth_power(number):
+""" This program will input a number and returns value i.e fourth power to that number"""
+def eval_fourthpower(number):
     """ This function will return number to its fourth power."""
     return pow(number,4)
 
-print(fourth_power(int(input("Enter a number for its fourth power-> "))))
+print(eval_fourthpower(int(input("Enter a number-> "))))

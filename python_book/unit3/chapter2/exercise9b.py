@@ -1,4 +1,4 @@
-""" This is a lab exercise of python book example 9b. """
+""" This program will display the tic-tac-toe board using variables. """
 # This is a program to display a tic-tac-toe board on screen using variables,
 # so that you don't need to write many print statements.
 def draw_board():
