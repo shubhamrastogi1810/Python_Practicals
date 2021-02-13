@@ -1,4 +1,4 @@
-"""This program will find most word occured in a  input poem."""
+"""This program will find most occured word  in the inputed poem."""
 poem_list = []
 while True:
     newline = input()
