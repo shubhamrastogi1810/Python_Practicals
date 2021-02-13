@@ -1,4 +1,4 @@
-""" This code will input a Capital case character and return lowercase. """
+""" This program will input a Capital case character and return lowercase. """
 
 def lowerchar(char):
     """ This function will lower the input character."""

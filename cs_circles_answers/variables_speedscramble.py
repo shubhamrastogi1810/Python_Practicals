@@ -1,4 +1,4 @@
-"""input the total distance and time,calculates average speed and prints it. """
+"""This code will input Uphill & Downhill distance and time, and calculates average speed"""
 uphill_distance = int(input("Enter uphill Distance."))
 downhill_distance = int(input("Enter downhill Distance."))
 uphill_time = int(input("Enter uphill time to go."))

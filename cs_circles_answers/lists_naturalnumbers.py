@@ -1,4 +1,4 @@
-""" This file takes a number input, returns a list of nos. upto that no."""
+""" This file takes a positive number as input, returns a list of nos. upto that number."""
 
 def naturalnumbers(number):
     """This function will return a list of numbers upto an input number"""

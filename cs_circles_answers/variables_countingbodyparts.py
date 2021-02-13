@@ -1,4 +1,4 @@
-""" This code calculates the head, shoulders, knees, and toes of the persons entered. """
+"""This program will input number of people and prints number of heads,shoulders,knees and toes."""
 person = int(input("enter the no. of persons"))
 print("No. of Heads ",person)
 print("No. of shoulders ",person * 2)

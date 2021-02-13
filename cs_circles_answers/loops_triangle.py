@@ -1,4 +1,4 @@
-""" This will print the pattern given below """
+""" This code  will print the pattern drawn below. """
 #111
 #11
 #1

@@ -1,5 +1,5 @@
-""" This is a famous name game which will print the song with your name """
-#our program should take a person's name as input, for example "pearl," and print song
+""" This program will input a name and will print a song on it's name."""
+#our program will take a person's name as input, for example "pearl," and print song
 
 # pearl, pearl, bo-bearl
 # banana-fana fo-fearl

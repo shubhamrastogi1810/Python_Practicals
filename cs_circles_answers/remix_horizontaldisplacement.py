@@ -1,5 +1,7 @@
-""" calculating the hrizontal displacement at time T """
+"""This program takes length and initial angle as input, and calculates horizontal displacement."""
+# horizontal displacement equation
 # X(T) = L × cos(A × cos(T × √9.8/L)) - L × cos(A)
+
 import math
 L = float(input())
 A = float(input())

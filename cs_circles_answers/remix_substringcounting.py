@@ -1,4 +1,4 @@
-""" count the number of string 1 occurs in string 2 """
+"""This program counts number of times of string1 occuring in string2."""
 #for example "assesses" has the substring "sses" 2 times, and
 #"trans-Panamanian banana" has the substring "an" 6 times.
 

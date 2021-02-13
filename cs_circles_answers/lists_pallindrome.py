@@ -1,4 +1,4 @@
-""" This code will check that a string is pallindrome or not. """
+"""This code inputs a word, checks it for Pallindrome string and returns True/False Accordingly."""
 def ispalindrome(string):
     """ This function will check that the string is pallindrome or not """
     length = len(string)//2

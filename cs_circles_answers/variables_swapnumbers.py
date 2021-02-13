@@ -1,4 +1,4 @@
-""" swap 2 numbers given in input. """
+"""This program inputs 2 numbers and prints them in ascending order."""
 number_1 = int(input("Enter No. 1 "))
 number_2 = int(input("Enter No. 2 "))
 

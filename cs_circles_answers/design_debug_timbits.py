@@ -1,4 +1,4 @@
-""" Arranging the remaining timbits in the minimum boxes and calculating the cost."""
+"""This program will arrange the remaining timbits in minimum boxes and calculates its cost."""
 # we have to find the total cost the timbits we want
 # timbits cost table
 #     Number               Price

@@ -1,4 +1,4 @@
-""" code is sorted of the program sorting scramble """
+"""This program sorts 3 numbers such that values are in assigned in ascending order to x,y,z. """
 # unscrambled code
 # z = tmp
 # y = min(y,z)
