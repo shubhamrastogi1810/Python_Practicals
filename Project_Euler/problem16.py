@@ -1,10 +1,16 @@
 """
     This code will do summation of answer of individual numbers of a number raised to power.
 """
-NUM = 2 ** 1000
-SUMS = 0
-while NUM > 0:
-    TEMP = NUM % 10
-    SUMS +=TEMP
-    NUM//=10
-print(SUMS)
+def main():
+    """
+    This function adds the digits of answer of number raised to the power.
+    """
+    num = 2 ** 1000
+    sums = 0
+    while num > 0:
+        temp = num % 10
+        sums +=temp
+        num//=10
+    print(sums)
+if __name__ == "__main__":
+    main()
