@@ -1,17 +1,25 @@
 """ This program will print the sum of even-valued terms upto 4 million of a fibonacci series."""
 
-FIRST = 1
-SECOND = 2
-EVE_ADD = 2
+def main():
+    """
+    This function prints sum of even-valued terms upto 4M fibonacci.
+    """
 
-while FIRST + SECOND <= 4000001:
+    first = 1
+    second = 2
+    eve_add = 2
 
-    ADD = FIRST + SECOND
+    while first + second <= 4000001:
 
-    if ADD % 2 == 0:
-        EVE_ADD+=ADD
+        add = first + second
 
-    FIRST = SECOND
-    SECOND = ADD
+        if add % 2 == 0:
+            eve_add += add
 
-print(EVE_ADD)
+        first = second
+        second = add
+
+    print(eve_add)
+
+if __name__ == "__main__":
+    main()
