@@ -1,16 +1,15 @@
-#The first two consecutive numbers to have two distinct prime factors are:
+"""The first two consecutive numbers to have two distinct prime factors are:
 
-#14 = 2 × 7
-#15 = 3 × 5
+14 = 2 × 7
+15 = 3 × 5
 
-#The first three consecutive numbers to have three distinct prime factors are:
+The first three consecutive numbers to have three distinct prime factors are:
 
-#644 = 2² × 7 × 23
-#645 = 3 × 5 × 43
-#646 = 2 × 17 × 19.
+644 = 2² × 7 × 23
+645 = 3 × 5 × 43
+646 = 2 × 17 × 19.
 
-#Find the first four consecutive integers to have four distinct prime factors each. What is the first of these numbers?
-
+Find the first four consecutive integers to have four distinct prime factors each. What is the first of these numbers? """
 
 def check_prime(num):
     if num == 2:
@@ -49,13 +48,14 @@ def finding_factors(num):
         return False
 
 
-# initializing from 10K as already checked for values below 10K.
+# checked the four digit values and did not found any number having four consecutive distinct primes.
 first = 10000
 second = 10001
 third = 10002
 while True:
     i = third + 1 
     if ((finding_factors(first) and finding_factors(second)) and finding_factors(third)) and finding_factors(i):
+    # printing the first of the four conescutive integers having four distinct primes.
         print(first)
         break
     first = second
