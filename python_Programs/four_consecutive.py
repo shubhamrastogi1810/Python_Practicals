@@ -48,10 +48,10 @@ def finding_factors(num):
         return False
 
 
-# checked the four digit values and did not found any number having four consecutive distinct primes.
-first = 10000
-second = 10001
-third = 10002
+
+first = 647
+second = 648
+third = 649
 while True:
     i = third + 1 
     if ((finding_factors(first) and finding_factors(second)) and finding_factors(third)) and finding_factors(i):
